@@ -5,10 +5,10 @@ Plugin URI: https://flexible-map.webaware.net.au/
 Author URI: https://shop.webaware.com.au/
 Donate link: https://shop.webaware.com.au/donations/?donation_for=Flexible+Map
 Tags: google, map, maps, google maps, kml
-Requires at least: 4.0
-Tested up to: 6.7
-Stable tag: 1.17.1
-Requires PHP: 5.3
+Requires at least: 4.6
+Tested up to: 6.8.1
+Stable tag: 1.18.0
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -228,17 +228,16 @@ Either turn off CloudFlare Rocketscript :) or install the [Flxmap No Rocketscrip
 
 ## Upgrade Notice
 
-### 1.17.1
+### 1.18.0
 
-KML map with center but no zoom no longer breaks the map; recognizes center coodinates with whitespace before and after the separating comma
+fixed PHP warning for dynamic property creation in PHP 8.1+
 
 ## Changelog
 
 The full changelog can be found [on GitHub](https://github.com/webaware/flexible-map/blob/master/changelog.md). Recent entries:
 
-### 1.17.1
+### 1.18.0
 
-Released 2019-05-04
+Released 2025-06-09
 
-* fixed: KML map with center but no zoom breaks the map
-* fixed: recognize center coordinates with whitespace before and after the separating comma
+* fixed: PHP warning for dynamic property creation in PHP 8.1+
